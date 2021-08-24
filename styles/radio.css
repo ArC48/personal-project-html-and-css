@@ -1,0 +1,38 @@
+.dot{
+    position: absolute;
+    border: 1px solid #DDDDDD;
+    top: 767px;
+    margin-left: 10px;
+    height: 12px;
+    width: 12px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:nth-child(1){
+    left: 907px;
+}
+
+.dot:nth-child(2){
+    left: 931px;
+}
+
+.dot:nth-child(3){
+    left: 955px;
+}
+
+.dot:nth-child(4){
+    left: 979px;
+}
+
+.dot1{
+    position: absolute;
+    top: 771px;
+    left: 969px;
+    height: 6px;
+    width: 6px;
+    background-color: #1ABC9C;
+    border-radius: 50%;
+    display: inline-block;
+}
