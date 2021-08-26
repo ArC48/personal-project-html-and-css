@@ -4,11 +4,11 @@ html,body{
 }
 
 .container{
-    width: 1920px;
+    width: 100%;
 }
 .page{
     height: 1280px;
-    width: 1920px;
+    width: 100%;
     display: flex;
 }
 .page1{
@@ -245,6 +245,7 @@ h2{
     word-spacing: 0.5px;
     color: #34495E;
     border: 2px solid rgba(197, 197, 197, 0.301);
+    z-index: 3;
 }
 
 #button_vm:hover{
@@ -289,7 +290,7 @@ h2{
     display: flex;
     justify-content:center;
     top: 134px;
-    left: 5px;
+    left: 13px;
     word-spacing: 0.8px;
 }
 
@@ -1164,7 +1165,7 @@ h2{
     font-weight: 300;
     text-align: center;
     width: 100%;
-    margin-left: 0.4rem;
+    margin-left: 0.9rem;
     margin-top: 5.6rem;
     margin-bottom: 0;
 }
@@ -1175,7 +1176,7 @@ h2{
     font-weight: 400;
     text-align: center;
     width: 100%;
-    margin-left: 0.3rem;
+    margin-left: 0.9rem;
     margin-top: 0.7rem;
     line-height: 1.4rem;;
 }
@@ -1414,4 +1415,8 @@ h2{
 .page15{
     height: 666px;
     background-color: #1A1C27;
+}
+
+#capabilities_text, .news_header, .news_text {
+    width: 99% !important;
 }

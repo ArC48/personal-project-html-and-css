@@ -1,11 +1,322 @@
-@media only screen and (max-width: 1280px) {
-  body {
-
+@media only screen and (max-width: 1919px) {
+  .navigation {
+    width: unset;
+    gap: 4%;
   }
+
+  .navigation li {
+    height: 100%;
+    padding-right: unset;
+    padding-left: unset;
+    vertical-align: unset;
+    left: unset;
+    float: unset;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo,
+  .page2 h2,
+  #second {
+    position: unset;
+  }
+  .logo {
+    width: 33px;
+    height: 50px;
+  }
+  h2{
+    left: 229px;
 }
 
-@media only screen and (max-width: 1024px) {
-  body {
-  
+#button_vm {
+    position: absolute;
+    top: 424px;
+}
+
+.page2 {
+    display: unset;
   }
+
+.boxes {
+    position: unset;
+  }
+.box{
+  width: 260px;
+}
+
+#about_header{
+    left: 174px;
+}
+
+#about_container{
+    margin-top: 10%;
+    margin-left: 174px;
+    color: #353535;
+    z-index: 2;
+}
+
+#ipad_icon{
+    right: 7%;
+}
+.round_figures {
+    left: 10%;
+    margin-right: 42px;
+  }
+.boxx_text{
+  width: 78%;
+  height: 80%;
+  line-height: 15px;
+}
+
+h1{
+  left: 86px;
+}
+
+.light{
+      left: 243px;
+}
+#transparent{
+  left: 400px;
+}
+
+#green{
+  left: 700px;
+}
+
+.dot:nth-child(1){
+    left: 607px;
+}
+
+.dot:nth-child(2){
+    left: 631px;
+}
+
+.dot:nth-child(3){
+    left: 655px;
+}
+
+.dot:nth-child(4){
+    left: 679px;
+}
+
+.dot1{
+    left: 669px;
+}
+
+.regular{
+    position: absolute;
+    top: 433px;
+    left: 350px;
+}
+.chess {
+    width: 80%;
+    margin-top: unset;
+    margin-left: unset;
+    margin: 18rem 10rem;
+    justify-content: center;
+  }
+  .contt,
+  .cont7 {
+    width: unset;
+    flex-basis: 24%;
+  }
+  #shapeQ {
+    margin-left: 5.8rem;
+  }
+
+.page10-containers {
+    margin-left: 4.4rem;
+}
+.computer_div > img {
+    margin-left: 1.5rem;
+}
+
+.computer_whole_container2 {
+    margin-left: -70.9rem;
+}
+.keep_container {
+    margin-left: 4.2rem;
+}
+.social_icons {
+    margin-left: 5.2rem;
+}
+
+#capabilities_text, .news_header, .news_text {
+    width: 99%;
+}
+
+
+
+@media only screen and (max-width: 1279px) {
+  .regular{
+    position: absolute;
+    top: 333px;
+    left: 270px;
+}
+h1{
+  left: 56px;
+  top: 400px;
+  font-size: 50px;
+  width: 93%;
+}
+.light{
+      left: 113px;
+      font-size: 30px;
+}
+#transparent{
+  left: 300px;
+}
+
+#green{
+  left: 600px;
+}
+.dot:nth-child(1){
+    left: 500px;
+}
+
+.dot:nth-child(2){
+    left: 524px;
+}
+
+.dot:nth-child(3){
+    left: 548px;
+}
+
+.dot:nth-child(4){
+    left: 572px;
+}
+
+.dot1{
+    left: 562px;
+}
+.navigation {
+    width: unset;
+    gap: 2%;
+  }
+
+  .navigation li {
+    height: 100%;
+    padding-right: unset;
+    padding-left: unset;
+    vertical-align: unset;
+    left: unset;
+    float: unset;
+  }
+
+  .boxes {
+    position: unset;
+  }
+  .box{
+    width: 222px;
+}
+
+.box_content{
+  left: 6%;
+}
+
+.box img{
+  left: 85px;
+}
+
+#about_header{
+    left: 114px;
+    top: 10px;
+}
+
+#about_container{
+    margin-top: 15%;
+    margin-left: 114px;
+    color: #353535;
+    z-index: 2;
+}
+
+.round_figures {
+    left: 5%;
+    margin-right: 42px;
+  }
+
+  .page10-containers {
+    margin-left: 0.9rem;
+
+}
+
+.page10-container-1{
+  width: 23%;
+}
+.page10-container-2{
+  width: 23%;
+}
+.page10-container-3{
+  width: 23%;
+}
+.page10-container-4{
+  width: 23%;
+}
+
+#long_container2 {
+    width: 1000px;
+}
+.purchase_button{
+    left: 40%;
+}
+#long_container2_text{
+    padding-right: 15rem;
+}
+
+.computer_div > img {
+    margin-left: 1.5rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.computer_whole_container2 {
+    margin-left: -70.9rem;
+
+}
+#squares_photo{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 45.9rem;
+    margin-left: 2.1rem;
+}
+.computer_whole_container2 {
+    margin-left: -56.9rem;
+}
+
+#capabilities_text, .news_header, .news_text {
+    width: 98% !important;
+}
+.chess {
+    width: 70%;
+  }
+  .keep_container {
+    margin-left: 1.2rem;
+}
+
+.keep_container2{
+  margin-bottom: 1rem;
+}
+.flex_row{
+  height: 10rem;
+}
+.social_icons {
+    margin-left: 2.2rem;
+
+}
+.social_icons img{
+    margin-right: 3.2rem;
+}
+}
+
+@media only screen and (max-width: 1023px) {
+  
+}
+
+@media only screen and (max-width: 767px) {
+  
+}
+
 }
