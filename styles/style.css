@@ -552,9 +552,8 @@ h2{
 
 .cont7-child{
     height: 110px;
-    margin-top: 6rem;
+    margin-top: -0.2rem;
 }
-
 
 .chess_p {
   text-align: center;
@@ -564,6 +563,14 @@ h2{
   font-weight: 700;
   position: relative;
   letter-spacing: 1.5px;
+  margin-bottom: -0.4rem;
+  margin-left: -0.4rem;
+}
+
+#shapeQ{
+    margin-top: 4.5rem;
+    margin-left: 8.3rem;
+    margin-bottom: 0;
 }
 
 .chess_p2 {
@@ -1402,4 +1409,9 @@ h2{
 #fb_icon{
     margin-left: 0.1rem;
     margin-right: 5rem;
+}
+
+.page15{
+    height: 666px;
+    background-color: #1A1C27;
 }
