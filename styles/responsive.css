@@ -87,23 +87,23 @@ h1{
 }
 
 .dot:nth-child(1){
-    left: 607px;
+    left: 583px;
 }
 
 .dot:nth-child(2){
-    left: 631px;
+    left: 609px;
 }
 
 .dot:nth-child(3){
-    left: 655px;
+    left: 636px;
 }
 
 .dot:nth-child(4){
-    left: 679px;
+    left: 660px;
 }
 
 .dot1{
-    left: 669px;
+    left: 650px;
 }
 
 .regular{
@@ -309,6 +309,11 @@ h1{
 .social_icons img{
     margin-right: 3.2rem;
 }
+.boxes{
+  justify-content: center;
+    display: flex;
+}
+
 }
 
 @media only screen and (max-width: 1023px) {

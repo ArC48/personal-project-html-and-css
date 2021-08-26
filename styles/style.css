@@ -4,11 +4,11 @@ html,body{
 }
 
 .container{
-    width: 100%;
+    width: 1920px;
 }
 .page{
     height: 1280px;
-    width: 100%;
+    width: 1920px;
     display: flex;
 }
 .page1{
@@ -16,16 +16,16 @@ html,body{
     background-color: #222533;
 }
 
-.regular{
+.regular {
     font-family: 'Lato', sans-serif;
     letter-spacing: 9px;
-    word-spacing: 2px;
+    word-spacing: 0px;
     font-size: 30px;
     width: 523px;
     height: 22px;
     position: relative;
     top: 433px;
-    left: 10px;
+    left: 13px;
     font-weight: 400;
     color: #FFFFFF;
 }
@@ -80,6 +80,7 @@ h1{
 }
 #transparent:hover, #green:hover{
     background-color: #16E8BE;
+    color: black;
     border: 0;
     cursor: pointer;
 }
@@ -117,13 +118,6 @@ h2{
     font-weight: 900;
 }
 
-.header{
-    width: 100%;
-    height: 90px;
-    border-bottom: 3px solid rgba(221, 221, 221, 0.281);
-    display: block;
-}
-
 .navigation{
     display: flex;
     justify-content: center;
@@ -135,17 +129,74 @@ h2{
 
 .navigation li{
     height: 100%;
-    display: table-cell;
     float: right;
     padding-right: 30px;
     padding-left: 2px;
     vertical-align: middle;
     position: relative;
-    top: 34px;
-    left: 605px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: #A1B1BC;
 }
+
+.navigation li:nth-child(1){
+        top: 34px;
+        left: 406px;
+        padding: 0;
+}
+.navigation li:nth-child(2){
+        top: 34px;
+        left: 450px;
+        padding: 0;
+}
+.navigation li:nth-child(3){
+        top: 35px;
+        left: 494px;
+        font-size: 15px;
+        padding: 0;
+}
+.navigation li:nth-child(4){
+        top: 35px;
+        left: 541px;
+        font-size: 15px;
+        padding: 0;
+}
+.navigation li:nth-child(5){
+        top: 35px;
+        left: 587px;
+        font-size: 15px;
+        padding: 0;
+}
+.navigation li:nth-child(6){
+        top: 35px;
+        left: 634px;
+        font-size: 15px;
+        padding: 0;
+}
+.navigation li:nth-child(7){
+        top: 35px;
+        left: 680px;
+        font-size: 15px;
+        padding: 0;
+}
+.navigation li:nth-child(8){
+        top: 35px;
+        left: 726px;
+        font-size: 15px;
+        padding: 0;
+}
+.navigation li:nth-child(9){
+        top: 35px;
+        left: 772px;
+        font-size: 15px;
+        padding: 0;
+}
+
+.navigation li:hover{
+    color: #00ffae;
+    cursor: pointer;
+}
+
 
 .boxes{
     position: relative;
@@ -177,7 +228,7 @@ h2{
 
 .box_header{
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 32px;
     text-align: center;
     font-size: 18px;
@@ -281,33 +332,18 @@ h2{
 }
 
 #capabilities_text{
-    position: absolute;
-    width: 100%;
-    height: 38px;
-    color: #ffffff;
-    font-weight: 400;
+    color: white;
     font-size: 14px;
-    display: flex;
-    justify-content:center;
-    top: 134px;
-    left: 13px;
-    word-spacing: 0.8px;
+    line-height: 24px;
+    word-spacing: 1.5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    transform: translate(635px, 132px);
 }
-
-#capabilities_text2{
-    position: absolute;
-    width: 100%;
-    height: 38px;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 14px;
-    display: flex;
-    justify-content:center;
-    top: 158px;
-    left: -1px;
-    word-spacing: 1.3px;
+.capabilities{
+    width: 41rem;
 }
-
 
 .round_figures {
     width: 187px;
@@ -318,7 +354,7 @@ h2{
     display: inline-block;
     position: relative;
     top: 250px;
-    left: 410px;
+    left: -246px;
     margin-right: 96px;
 }
 
@@ -350,7 +386,7 @@ h2{
     font-weight: 400;
 }
 
-.round_p_header{
+.round_p_header, .round_p_header4{
     position: absolute;
     top: 158px;
     left: 8px;
@@ -358,7 +394,25 @@ h2{
     font-weight: 700;
     color: white;
 }
+.round_p_header4{
+    left: 11px;
+}
 
+.bicon1{
+    margin-top: 47px !important;
+}
+
+.bicon2{
+    margin-top: 44px !important;
+}
+
+.bicon3{
+    margin-top: 48px !important;
+}
+
+.bicon4{
+    margin-top: 47px !important;
+}
 .round_p_text{
     position: absolute;
     top: 196px;
@@ -399,6 +453,51 @@ h2{
     font-size: 14px;
     color: #A1B1BC;
     font-weight: 400;
+}
+
+
+.page7-navigation nav ul {
+    display: flex;
+    width: 910px;
+    height: 19px;
+    text-align: center;
+    margin-left: 334px;
+    margin-top: 201px;
+}
+
+#halfway{
+    margin-right: 29px;
+}
+
+.page7-navigation nav ul li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 1px;
+    color: #A1B1BC;
+    margin-right: 33px;
+}
+
+#nav_button{
+    transform: translate(20%, 20%);
+}
+
+#Sort-by-Date {
+    background: #ECF0F1;
+    border-radius: 6px;
+    border: none;
+    color: #2C3E50;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 8%;
+}
+
+.page7-navigation nav ul li .page7-span {
+    color: #1ABC9C;
 }
 
 .boxxes2{
@@ -674,6 +773,184 @@ h2{
     position: relative;
     height: 880px;
 }
+
+.page9 {
+    background: #222533;
+    transform: translate(0, 333.2px);
+}
+
+.page9-sections {
+    height: 780px;
+}
+
+.page9-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transform: translate(0, 102px);
+}
+
+.page9-header-text h5 {
+    font-size: 36px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+
+.page9-header-text h5 span {
+    color: #26E2BD;
+    font-weight: 400;
+}
+
+.page9-header-text p {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #E8E8E8;
+    margin-top: -41.5px;
+    margin-left: -2.5px;
+}
+
+.page-9-section-1 {
+    width: 300px;
+    height: 470px;
+    transform: translate(429px, 214px);
+}
+
+.page9-sub-div {
+    display: flex;
+}
+
+.page9-sub-div p {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.page9-sub-div div {
+    width: 50px;
+    height: 50px;
+    background: #1FDAB5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.page9-text-div {
+    width: 299.2px;
+    height: auto;
+    margin-left: -54px;
+}
+
+.page9-text-div p {
+    text-align: right;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 4.5px;
+}
+
+.page9-col-2 {
+    transform: translate(27.5px, 18px);
+}
+
+.page9-col-2 .page9-text-div {
+    margin-left: -81.5px;
+    margin-top: 5px;
+}
+
+.page9-col-3 {
+    transform: translate(33px, 36px);
+}
+
+.page9-col-3 .page9-text-div {
+    margin-left: -87px;
+    margin-top: 5px;
+}
+
+.page9-phone-box {
+    width: 446px;
+    height: 650px;
+    background: #A1B1BC;
+    transform: translate(737.5px, -341px);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: none;
+}
+
+.page-9-section-3 {
+    transform: translate(1230px, -906px);
+}
+
+.page-9-section-3 .page9-row-3-col-1 .page9-sub-div p {
+    margin-left: 11px;
+}
+
+
+/* .align {
+    width: 380px;
+}
+
+.align p {
+    text-align: left !important;
+    margin-left: 60px;
+} */
+
+.page9-text-div-row-3 {
+    width: 299.2px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.page9-text-div-row-3 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 4.5px;
+}
+
+.page9-row-3-col-2 {
+    transform: translate(0px, 18px);
+}
+
+.page9-row-3-col-2 .page9-sub-div p {
+    margin-left: 10.5px;
+}
+
+.page9-row-3-col-2 .page9-text-div-row-3 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.page9-row-3-col-3 {
+    transform: translate(0px, 36px);
+}
+
+.page9-row-3-col-3 .page9-sub-div p {
+    margin-left: 10.5px;
+}
+
+.page9-row-3-col-3 .page9-text-div-row-3 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
 
 /*
 .box-like {
